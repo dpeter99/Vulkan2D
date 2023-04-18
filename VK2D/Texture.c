@@ -9,7 +9,7 @@
 #include "VK2D/Renderer.h"
 #include "VK2D/Buffer.h"
 #include "VK2D/DescriptorControl.h"
-#include "VK2D/stb_image.h"
+#include "stb_image.h"
 #include "VK2D/Opaque.h"
 #include "VK2D/Util.h"
 #include <malloc.h>
