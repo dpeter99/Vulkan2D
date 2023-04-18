@@ -1,9 +1,15 @@
 cmake_minimum_required(VERSION 3.17)
-project(Vulkan2D-Examples)
-add_subdirectory(examples/main)
-add_subdirectory(examples/retrolook)
-add_subdirectory(examples/splitscreen)
-add_subdirectory(examples/instancing)
-add_subdirectory(examples/multithread-loading)
-add_subdirectory(examples/shadows)
-add_subdirectory(examples/shadowsglsl)
+project(Vulkan2D)
+
+if(CMAKE_CURRENT_SOURCE_DIR STREQUAL CMAKE_SOURCE_DIR)
+    # We're in the root, define additional targets for developers.
+
+    add_subdirectory(examples/main)
+    add_subdirectory(examples/retrolook)
+    add_subdirectory(examples/splitscreen)
+    add_subdirectory(examples/instancing)
+    add_subdirectory(examples/multithread-loading)
+    add_subdirectory(examples/shadows)
+    add_subdirectory(examples/shadowsglsl)
+
+endif()

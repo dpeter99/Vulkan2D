@@ -1,7 +1,7 @@
 /// \file RendererMeta.c
 /// \author Paolo Mazzon
 #include <vulkan/vulkan.h>
-#include <SDL2/SDL_vulkan.h>
+#include <SDL_vulkan.h>
 
 #include "VK2D/RendererMeta.h"
 #include "VK2D/Validation.h"

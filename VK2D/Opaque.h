@@ -6,7 +6,7 @@
 #include "Constants.h"
 #include "VK2D/Camera.h"
 #include <vulkan/vulkan.h>
-#include <SDL2/SDL.h>
+#include <SDL.h>
 #define VMA_VULKAN_VERSION 1002000
 #include <VulkanMemoryAllocator/src/VmaUsage.h>
 

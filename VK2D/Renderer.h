@@ -3,7 +3,7 @@
 /// \brief The main renderer that handles all rendering
 #pragma once
 #include "VK2D/Structs.h"
-#include <SDL2/SDL.h>
+#include <SDL.h>
 
 #ifdef __cplusplus
 extern "C" {
