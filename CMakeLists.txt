@@ -13,3 +13,16 @@ if(CMAKE_CURRENT_SOURCE_DIR STREQUAL CMAKE_SOURCE_DIR)
     add_subdirectory(examples/shadowsglsl)
 
 endif()
+
+add_library(Vulkan2D INTERFACE)
+
+
+FILE(GLOB_RECURSE Vulkan2D_SOURCES
+        ${CMAKE_CURRENT_LIST_DIR}/VK2D/*.c
+)
+target_sources(Vulkan2D PUBLIC
+    ${Vulkan2D_SOURCES}
+)
+target_include_directories(Vulkan2D INTERFACE
+        ${CMAKE_CURRENT_LIST_DIR}/
+)
