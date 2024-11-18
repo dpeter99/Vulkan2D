@@ -4,7 +4,7 @@
 #pragma once
 #include "VK2D/Structs.h"
 #define VMA_VULKAN_VERSION 1002000
-#include <VulkanMemoryAllocator/src/VmaUsage.h>
+#include <VmaUsage.h>
 
 #ifdef __cplusplus
 extern "C" {
